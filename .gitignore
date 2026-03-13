@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# SQLite database (local dev artefact)
+*.db
+
+# Uploaded CSVs (transient, potentially large)
+backend/uploads/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
